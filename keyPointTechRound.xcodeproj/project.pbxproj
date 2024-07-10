@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		788C65432C3D3D4100906A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65422C3D3D4100906A94 /* AppDelegate.swift */; };
 		788C65452C3D3D4100906A94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65442C3D3D4100906A94 /* SceneDelegate.swift */; };
-		788C65472C3D3D4100906A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65462C3D3D4100906A94 /* ViewController.swift */; };
 		788C654A2C3D3D4100906A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C65482C3D3D4100906A94 /* Main.storyboard */; };
 		788C654D2C3D3D4100906A94 /* keyPointTechRound.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 788C654B2C3D3D4100906A94 /* keyPointTechRound.xcdatamodeld */; };
 		788C654F2C3D3D4300906A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C654E2C3D3D4300906A94 /* Assets.xcassets */; };
@@ -17,6 +16,30 @@
 		788C655D2C3D3D4300906A94 /* keyPointTechRoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C655C2C3D3D4300906A94 /* keyPointTechRoundTests.swift */; };
 		788C65672C3D3D4300906A94 /* keyPointTechRoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65662C3D3D4300906A94 /* keyPointTechRoundUITests.swift */; };
 		788C65692C3D3D4300906A94 /* keyPointTechRoundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65682C3D3D4300906A94 /* keyPointTechRoundUITestsLaunchTests.swift */; };
+		788C657A2C3D3E6A00906A94 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65792C3D3E6A00906A94 /* OnboardingViewController.swift */; };
+		788C657E2C3D3EE700906A94 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C657C2C3D3EE700906A94 /* OnboardingCell.swift */; };
+		788C657F2C3D3EE700906A94 /* OnboardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788C657D2C3D3EE700906A94 /* OnboardingCell.xib */; };
+		788C65812C3D404100906A94 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65802C3D404100906A94 /* OnboardingItem.swift */; };
+		788C65832C3D405C00906A94 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65822C3D405C00906A94 /* OnboardingViewModel.swift */; };
+		788C65852C3D41C200906A94 /* MainDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65842C3D41C200906A94 /* MainDashboardViewController.swift */; };
+		788C65882C3D4C4700906A94 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65872C3D4C4700906A94 /* CardView.swift */; };
+		788C658A2C3D5E1B00906A94 /* MainDashboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C65892C3D5E1B00906A94 /* MainDashboardViewController.storyboard */; };
+		788C658C2C3D70BA00906A94 /* bannerImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C658B2C3D70BA00906A94 /* bannerImageViewController.swift */; };
+		788C658E2C3D70D400906A94 /* YoutubeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C658D2C3D70D400906A94 /* YoutubeImageViewController.swift */; };
+		788C65902C3D70E200906A94 /* bannerImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C658F2C3D70E200906A94 /* bannerImageViewController.storyboard */; };
+		788C65922C3D70F000906A94 /* YoutubeImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C65912C3D70F000906A94 /* YoutubeImageViewController.storyboard */; };
+		788C65952C3D878600906A94 /* YouTubeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65932C3D878600906A94 /* YouTubeTableViewCell.swift */; };
+		788C65962C3D878600906A94 /* YouTubeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788C65942C3D878600906A94 /* YouTubeTableViewCell.xib */; };
+		788C65982C3D8B9500906A94 /* youTubeImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65972C3D8B9500906A94 /* youTubeImageDataModel.swift */; };
+		788C659A2C3D8BE700906A94 /* youTubeImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65992C3D8BE700906A94 /* youTubeImageViewModel.swift */; };
+		788C65DF2C3DA9CF00906A94 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65DE2C3DA9CF00906A94 /* UIImageView.swift */; };
+		788C65E12C3DAA0900906A94 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65E02C3DAA0900906A94 /* ImageLoader.swift */; };
+		788C65E32C3DBBB700906A94 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65E22C3DBBB700906A94 /* VideoPlayerViewController.swift */; };
+		788C65E52C3DBBCF00906A94 /* VideoPlayerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C65E42C3DBBCF00906A94 /* VideoPlayerViewController.storyboard */; };
+		788C65EC2C3DC82A00906A94 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65EA2C3DC82A00906A94 /* BannerCollectionViewCell.swift */; };
+		788C65ED2C3DC82A00906A94 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788C65EB2C3DC82A00906A94 /* BannerCollectionViewCell.xib */; };
+		788C65F02C3DCDA800906A94 /* bannerImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65EF2C3DCDA800906A94 /* bannerImageViewModel.swift */; };
+		788C65F22C3DCDBF00906A94 /* bannerImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C65F12C3DCDBF00906A94 /* bannerImageDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +63,6 @@
 		788C653F2C3D3D4100906A94 /* keyPointTechRound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyPointTechRound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C65422C3D3D4100906A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788C65442C3D3D4100906A94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		788C65462C3D3D4100906A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		788C65492C3D3D4100906A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		788C654C2C3D3D4100906A94 /* keyPointTechRound.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keyPointTechRound.xcdatamodel; sourceTree = "<group>"; };
 		788C654E2C3D3D4300906A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +73,30 @@
 		788C65622C3D3D4300906A94 /* keyPointTechRoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyPointTechRoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C65662C3D3D4300906A94 /* keyPointTechRoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyPointTechRoundUITests.swift; sourceTree = "<group>"; };
 		788C65682C3D3D4300906A94 /* keyPointTechRoundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyPointTechRoundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		788C65792C3D3E6A00906A94 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		788C657C2C3D3EE700906A94 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		788C657D2C3D3EE700906A94 /* OnboardingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCell.xib; sourceTree = "<group>"; };
+		788C65802C3D404100906A94 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		788C65822C3D405C00906A94 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		788C65842C3D41C200906A94 /* MainDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardViewController.swift; sourceTree = "<group>"; };
+		788C65872C3D4C4700906A94 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		788C65892C3D5E1B00906A94 /* MainDashboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainDashboardViewController.storyboard; sourceTree = "<group>"; };
+		788C658B2C3D70BA00906A94 /* bannerImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerImageViewController.swift; sourceTree = "<group>"; };
+		788C658D2C3D70D400906A94 /* YoutubeImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeImageViewController.swift; sourceTree = "<group>"; };
+		788C658F2C3D70E200906A94 /* bannerImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = bannerImageViewController.storyboard; sourceTree = "<group>"; };
+		788C65912C3D70F000906A94 /* YoutubeImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YoutubeImageViewController.storyboard; sourceTree = "<group>"; };
+		788C65932C3D878600906A94 /* YouTubeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeTableViewCell.swift; sourceTree = "<group>"; };
+		788C65942C3D878600906A94 /* YouTubeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeTableViewCell.xib; sourceTree = "<group>"; };
+		788C65972C3D8B9500906A94 /* youTubeImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youTubeImageDataModel.swift; sourceTree = "<group>"; };
+		788C65992C3D8BE700906A94 /* youTubeImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youTubeImageViewModel.swift; sourceTree = "<group>"; };
+		788C65DE2C3DA9CF00906A94 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		788C65E02C3DAA0900906A94 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		788C65E22C3DBBB700906A94 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		788C65E42C3DBBCF00906A94 /* VideoPlayerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoPlayerViewController.storyboard; sourceTree = "<group>"; };
+		788C65EA2C3DC82A00906A94 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		788C65EB2C3DC82A00906A94 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		788C65EF2C3DCDA800906A94 /* bannerImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerImageViewModel.swift; sourceTree = "<group>"; };
+		788C65F12C3DCDBF00906A94 /* bannerImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerImageDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +147,12 @@
 		788C65412C3D3D4100906A94 /* keyPointTechRound */ = {
 			isa = PBXGroup;
 			children = (
+				788C65752C3D3D7A00906A94 /* Model */,
+				788C65772C3D3DD400906A94 /* View */,
+				788C65762C3D3D8100906A94 /* ViewModel */,
+				788C65782C3D3DDB00906A94 /* Controller */,
 				788C65422C3D3D4100906A94 /* AppDelegate.swift */,
 				788C65442C3D3D4100906A94 /* SceneDelegate.swift */,
-				788C65462C3D3D4100906A94 /* ViewController.swift */,
-				788C65482C3D3D4100906A94 /* Main.storyboard */,
 				788C654E2C3D3D4300906A94 /* Assets.xcassets */,
 				788C65502C3D3D4300906A94 /* LaunchScreen.storyboard */,
 				788C65532C3D3D4300906A94 /* Info.plist */,
@@ -128,6 +176,83 @@
 				788C65682C3D3D4300906A94 /* keyPointTechRoundUITestsLaunchTests.swift */,
 			);
 			path = keyPointTechRoundUITests;
+			sourceTree = "<group>";
+		};
+		788C65752C3D3D7A00906A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				788C65972C3D8B9500906A94 /* youTubeImageDataModel.swift */,
+				788C65802C3D404100906A94 /* OnboardingItem.swift */,
+				788C65F12C3DCDBF00906A94 /* bannerImageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		788C65762C3D3D8100906A94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				788C65822C3D405C00906A94 /* OnboardingViewModel.swift */,
+				788C65992C3D8BE700906A94 /* youTubeImageViewModel.swift */,
+				788C65EF2C3DCDA800906A94 /* bannerImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		788C65772C3D3DD400906A94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				788C65862C3D4C3200906A94 /* CustomViews */,
+				788C657B2C3D3EA600906A94 /* CellView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		788C65782C3D3DDB00906A94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				788C65792C3D3E6A00906A94 /* OnboardingViewController.swift */,
+				788C65842C3D41C200906A94 /* MainDashboardViewController.swift */,
+				788C658B2C3D70BA00906A94 /* bannerImageViewController.swift */,
+				788C658D2C3D70D400906A94 /* YoutubeImageViewController.swift */,
+				788C65E22C3DBBB700906A94 /* VideoPlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		788C657B2C3D3EA600906A94 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				788C657C2C3D3EE700906A94 /* OnboardingCell.swift */,
+				788C657D2C3D3EE700906A94 /* OnboardingCell.xib */,
+				788C65932C3D878600906A94 /* YouTubeTableViewCell.swift */,
+				788C65942C3D878600906A94 /* YouTubeTableViewCell.xib */,
+				788C65EA2C3DC82A00906A94 /* BannerCollectionViewCell.swift */,
+				788C65EB2C3DC82A00906A94 /* BannerCollectionViewCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+		788C65862C3D4C3200906A94 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				788C65EE2C3DCD2700906A94 /* ControllerView */,
+				788C65872C3D4C4700906A94 /* CardView.swift */,
+				788C65DE2C3DA9CF00906A94 /* UIImageView.swift */,
+				788C65E02C3DAA0900906A94 /* ImageLoader.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		788C65EE2C3DCD2700906A94 /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				788C65482C3D3D4100906A94 /* Main.storyboard */,
+				788C65892C3D5E1B00906A94 /* MainDashboardViewController.storyboard */,
+				788C658F2C3D70E200906A94 /* bannerImageViewController.storyboard */,
+				788C65912C3D70F000906A94 /* YoutubeImageViewController.storyboard */,
+				788C65E42C3DBBCF00906A94 /* VideoPlayerViewController.storyboard */,
+			);
+			path = ControllerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +360,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				788C65522C3D3D4300906A94 /* LaunchScreen.storyboard in Resources */,
+				788C65962C3D878600906A94 /* YouTubeTableViewCell.xib in Resources */,
+				788C65922C3D70F000906A94 /* YoutubeImageViewController.storyboard in Resources */,
 				788C654F2C3D3D4300906A94 /* Assets.xcassets in Resources */,
+				788C65ED2C3DC82A00906A94 /* BannerCollectionViewCell.xib in Resources */,
+				788C657F2C3D3EE700906A94 /* OnboardingCell.xib in Resources */,
+				788C65E52C3DBBCF00906A94 /* VideoPlayerViewController.storyboard in Resources */,
+				788C65902C3D70E200906A94 /* bannerImageViewController.storyboard in Resources */,
 				788C654A2C3D3D4100906A94 /* Main.storyboard in Resources */,
+				788C658A2C3D5E1B00906A94 /* MainDashboardViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +393,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788C65472C3D3D4100906A94 /* ViewController.swift in Sources */,
+				788C65EC2C3DC82A00906A94 /* BannerCollectionViewCell.swift in Sources */,
+				788C65F22C3DCDBF00906A94 /* bannerImageDataModel.swift in Sources */,
+				788C658C2C3D70BA00906A94 /* bannerImageViewController.swift in Sources */,
+				788C65E32C3DBBB700906A94 /* VideoPlayerViewController.swift in Sources */,
+				788C65DF2C3DA9CF00906A94 /* UIImageView.swift in Sources */,
+				788C65982C3D8B9500906A94 /* youTubeImageDataModel.swift in Sources */,
+				788C65F02C3DCDA800906A94 /* bannerImageViewModel.swift in Sources */,
+				788C658E2C3D70D400906A94 /* YoutubeImageViewController.swift in Sources */,
+				788C65852C3D41C200906A94 /* MainDashboardViewController.swift in Sources */,
+				788C659A2C3D8BE700906A94 /* youTubeImageViewModel.swift in Sources */,
+				788C65E12C3DAA0900906A94 /* ImageLoader.swift in Sources */,
+				788C65882C3D4C4700906A94 /* CardView.swift in Sources */,
 				788C654D2C3D3D4100906A94 /* keyPointTechRound.xcdatamodeld in Sources */,
+				788C65952C3D878600906A94 /* YouTubeTableViewCell.swift in Sources */,
+				788C657E2C3D3EE700906A94 /* OnboardingCell.swift in Sources */,
 				788C65432C3D3D4100906A94 /* AppDelegate.swift in Sources */,
 				788C65452C3D3D4100906A94 /* SceneDelegate.swift in Sources */,
+				788C657A2C3D3E6A00906A94 /* OnboardingViewController.swift in Sources */,
+				788C65832C3D405C00906A94 /* OnboardingViewModel.swift in Sources */,
+				788C65812C3D404100906A94 /* OnboardingItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

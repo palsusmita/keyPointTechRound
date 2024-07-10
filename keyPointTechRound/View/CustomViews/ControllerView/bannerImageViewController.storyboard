@@ -18,8 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="orT-UC-L34">
-                                <rect key="frame" x="10" y="69" width="346" height="417"/>
-                                <color key="backgroundColor" red="0.07554500550031662" green="0.7486383318901062" blue="0.79544514417648315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="10" y="69" width="373" height="417"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CZQ-WG-OFr">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -37,31 +36,18 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <pageControl opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gl9-Re-FW5">
-                                <rect key="frame" x="125" y="501" width="116" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="JRA-sI-Icr"/>
-                                    <constraint firstAttribute="width" constant="116" id="M1o-Si-5hB"/>
-                                </constraints>
-                                <color key="pageIndicatorTintColor" red="0.21960783" green="0.45490193369999998" blue="0.49803921579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="currentPageIndicatorTintColor" red="0.90698975324630737" green="0.46979391574859619" blue="0.049196504056453705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="orT-UC-L34" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="5U1-aS-1e3"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gl9-Re-FW5" secondAttribute="trailing" constant="125" id="8jo-tK-Cea"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="orT-UC-L34" secondAttribute="trailing" constant="10" id="EhS-yM-11d"/>
-                            <constraint firstItem="gl9-Re-FW5" firstAttribute="top" secondItem="orT-UC-L34" secondAttribute="bottom" constant="15" id="S64-Td-cAt"/>
-                            <constraint firstItem="gl9-Re-FW5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="125" id="S8g-jV-tbC"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="orT-UC-L34" secondAttribute="bottom" constant="332" id="cUG-Zd-Xc5"/>
                             <constraint firstItem="orT-UC-L34" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="m3R-D4-Lh1"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="orT-UC-L34" id="rNE-7Z-dLK"/>
-                        <outlet property="pageControl" destination="gl9-Re-FW5" id="mSU-va-TBq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
