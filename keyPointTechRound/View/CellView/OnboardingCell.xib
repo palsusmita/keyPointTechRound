@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCell" id="gTV-IL-0wX" customClass="OnboardingCell" customModule="keyPointTechRound" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPw-nY-i73" customClass="CardView" customModule="keyPointTechRound" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books.vertical.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0bs-Sc-v27">
+                                <rect key="frame" x="0.0" y="-0.3333333333333286" width="155" height="155.33333333333331"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0bs-Sc-v27" secondAttribute="trailing" id="1OS-G3-w46"/>
+                            <constraint firstItem="0bs-Sc-v27" firstAttribute="leading" secondItem="PPw-nY-i73" secondAttribute="leading" id="Mn3-xf-7UK"/>
+                            <constraint firstItem="0bs-Sc-v27" firstAttribute="top" secondItem="PPw-nY-i73" secondAttribute="top" id="Mnl-fn-iHD"/>
+                            <constraint firstAttribute="bottom" secondItem="0bs-Sc-v27" secondAttribute="bottom" id="pKR-l3-1qh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PPw-nY-i73" secondAttribute="bottom" id="8yo-CA-UXf"/>
+                <constraint firstAttribute="trailing" secondItem="PPw-nY-i73" secondAttribute="trailing" id="gSY-gA-H4K"/>
+                <constraint firstItem="PPw-nY-i73" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sqh-kf-LU7"/>
+                <constraint firstItem="PPw-nY-i73" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yLw-3a-8WH"/>
+            </constraints>
+            <size key="customSize" width="155" height="155"/>
+            <connections>
+                <outlet property="cardView" destination="PPw-nY-i73" id="SHJ-rB-inj"/>
+                <outlet property="imageView" destination="0bs-Sc-v27" id="o8m-xk-UEV"/>
+            </connections>
+            <point key="canvasLocation" x="45.038167938931295" y="56.690140845070424"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="books.vertical.fill" catalog="system" width="128" height="110"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
